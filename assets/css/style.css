@@ -603,6 +603,12 @@ section {
   border-left: 1px solid #37b3ed;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
