@@ -1109,7 +1109,7 @@ section {
     padding-right: 20px 15px;
   }
 }
-.carousel-inner {
+/* .carousel-inner {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1118,13 +1118,13 @@ section {
 .carousel-item {
   flex: 0 0 auto;
   max-width: auto;
-  height: 500px; /* Adjust the fixed height as needed */
+  height: 500px; 
 }
 
 .carousel-item img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .carousel-caption {
   background: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for transparency */
