@@ -1117,7 +1117,7 @@ section {
 
 .carousel-item {
   flex: 0 0 auto;
-  max-width: none;
+  max-width: auto;
   height: 500px; /* Adjust the fixed height as needed */
 }
 
@@ -1125,6 +1125,7 @@ section {
   max-width: 100%;
   height: auto;
 }
+
 .carousel-caption {
   background: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for transparency */
   color: #fff; /* Text color */
