@@ -1111,11 +1111,11 @@ section {
 }
 
 .carousel-item img {
-  max-height: 300px; /* Adjust the maximum height as needed */
-  width: auto; /* Maintain the aspect ratio */
+  max-height: 500px; /* Adjust the maximum height as needed */
+  /* width: auto; Maintain the aspect ratio */
 }
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
+  background: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for transparency */
   color: #fff; /* Text color */
-  padding: 10px; /* Adjust the padding as needed */
+  padding: 20px; /* Adjust the padding as needed */
 }
