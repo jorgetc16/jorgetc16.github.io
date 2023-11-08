@@ -1131,3 +1131,8 @@ section {
   color: #fff; /* Text color */
   padding: 20px; /* Adjust the padding as needed */
 }
+
+.research-content {
+  width: 100%;
+  text-align: left;
+}
