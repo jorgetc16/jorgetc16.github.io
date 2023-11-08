@@ -1109,15 +1109,21 @@ section {
     padding-right: 20px 15px;
   }
 }
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 .carousel-item {
-  max-height: 500px; /* Adjust the maximum height as needed */
-  overflow: hidden;
+  flex: 0 0 auto;
+  max-width: none;
+  height: 500px; /* Adjust the fixed height as needed */
 }
 
 .carousel-item img {
-  max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
-  height: auto; /* Maintain the aspect ratio */
+  max-width: 100%;
+  height: auto;
 }
 .carousel-caption {
   background: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for transparency */
