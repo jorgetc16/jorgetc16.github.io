@@ -1110,9 +1110,14 @@ section {
   }
 }
 
-.carousel-item img {
+.carousel-item {
   max-height: 500px; /* Adjust the maximum height as needed */
-  /* width: auto; Maintain the aspect ratio */
+  overflow: hidden;
+}
+
+.carousel-item img {
+  max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+  height: auto; /* Maintain the aspect ratio */
 }
 .carousel-caption {
   background: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for transparency */
